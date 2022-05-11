@@ -19,6 +19,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 // router
+app.use(express.json());
 
 app.use('/api', apiRoute);
 
